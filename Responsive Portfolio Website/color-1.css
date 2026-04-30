@@ -1,0 +1,10 @@
+/* color-1.css - theme variables (change these to create other color themes) */
+:root{
+  --bg: #0B1220;        /* page background */
+  --card: #0E1724;      /* card / panel bg */
+  --text: #E6F0F6;      /* main text */
+  --muted: #9FB0C1;     /* muted text */
+  --accent: #06b6d4;    /* primary accent (teal) */
+  --accent-2: #7c3aed;  /* secondary accent (purple) */
+}
+body { background: radial-gradient(1200px 400px at 10% 10%, rgba(12,24,40,0.35), transparent), var(--bg); }
